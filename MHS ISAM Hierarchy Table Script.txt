@@ -53,7 +53,7 @@ TERRITORY_ID__C
 FROM PRD_ENT_PL_DATALAKE_DB.PHARMA2_SFDC.ACCOUNT 
 -- WHERE (OWNER_NAME__C IN ('Anna Cerda (Bill)','Anna Cerda','Jasmin Giles','Jake Welty','Chris Porter','Christopher Porter','Abby Parker','Jackson Fentress','Bridget Wilson','Evie Zamudio','Savannah Glenn','Crystal Blakley','Katy McCash','Mary Berresford','Bennett Corley')
 -- OR TERRITORY_ID__C IN ('7986'))
-WHERE LTRIM(TERRITORY_ID__C,'0') IN ('761','1132','1160','7881','7891','7892','7898','7899','7986','7988','7989','7992','7994','7995','7996','7997','7998')
+WHERE LTRIM(TERRITORY_ID__C,'0') IN ('761','1132','1160','7881','7891','7892','7898','7899','7986','7988','7989','7992','7994','7995','7996','7997','7998','7981')
 GROUP BY 1,2,3,4;
 -- SELECT * FROM CURR;
 
